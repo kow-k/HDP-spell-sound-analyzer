@@ -1,4 +1,4 @@
-# HDP spell-sound analysis
+# HDP sound-spell analysis
 
 Data and scripts for analysis used for "Exploring structures of English sound and spelling using HDP" presented in JCSS41/2024
 
