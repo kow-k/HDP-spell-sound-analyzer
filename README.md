@@ -2,11 +2,10 @@
 
 Data and scripts for analysis used for "Exploring structures of English sound and spelling using HDP" presented in JCSS41/2024
 
-## Data
-Text files
-
 ### Data
 1. [English spell/sound pairs (.csv)](data/open-dict-ipa/data1/en_US.csv)
+
+The "data1" directory is a copy of the directory of the same name provided at [open-dict-ipa](https://github.com/open-dict-data/ipa-dict).
 
 ## Scripts for data analysis
 Scripts for analysis (Jupyter notebooks)
