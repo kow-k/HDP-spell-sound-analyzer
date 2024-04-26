@@ -1,0 +1,8 @@
+# folders to ignore
+.ipynb_checkpoints/
+.vscode/settings.json
+__pycache__/
+# files to ignore
+*.csv
+*.txt
+*.md.html
