@@ -18,7 +18,7 @@ Data and scripts for analysis used for "Exploring structures of English sound an
 
 Data 6, 7, 8 and 9 are class-wise extractions from [WordNet 3](http://wordnet.princeton.edu/).
 
-Data 2, 3, 4 and 5 are the reduced verions of 6, 7, 8 and 9 in which spells are paired with IPA symbols in open-dict-ipa [en_US.csv](data/open-dict-ipa/data1/en_US.csv.gz).
+Data 2, 3, 4 and 5 are the reduced/filtered versions of data 6, 7, 8 and 9, whereby spells are paired with IPA symbols in open-dict-ipa [en_US.csv](data/open-dict-ipa/data1/en_US.csv.gz).
 
 The "data1" directory is a copy of the directory of the same name provided at [open-dict-ipa](https://github.com/open-dict-data/ipa-dict).
 
