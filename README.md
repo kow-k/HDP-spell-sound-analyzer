@@ -2,8 +2,9 @@
 
 Data and scripts for analysis used for "Exploring structures of English sound and spelling using HDP" presented in JCSS41/2024
 
-### Data
+# Data
 
+## English
 1. [English spell/sound pairs (.csv) from open-dict-ipa](data/open-dict-ipa/data1/en_US.csv.gz)
 2. [English noun spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_N_only.csv)
 3. [English verb spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_V_only.csv)
@@ -16,23 +17,28 @@ Data and scripts for analysis used for "Exploring structures of English sound an
 
 Data 6, 7, 8 and 9 are class-wise extractions from [WordNet 3](http://wordnet.princeton.edu/).
 
-Data 2, 3, 4 and 5 are the reduced verions of 6, 7, 8 and 9 in which spells are paired with IPA symbols in open-dict-ipa en_US.csv.
+Data 2, 3, 4 and 5 are the reduced verions of 6, 7, 8 and 9 in which spells are paired with IPA symbols in open-dict-ipa [en_US.csv](data/open-dict-ipa/data1/en_US.csv.gz).
 
 The "data1" directory is a copy of the directory of the same name provided at [open-dict-ipa](https://github.com/open-dict-data/ipa-dict).
 
-The "data1a" contains [German nouns](data/open-dict-ipa/data1a/de_N_only.csv.gz) and [German non-nouns](data/open-dict-ipa/data1a/de_non_N_only.csv.gz). This classfication is (too) simple in that they are separated if words start with capital letter or not.
+## German
 
-## Scripts for data analysis
+1. [German words](data/open-dict-ipa/data1/de.csv.gz)
+2. [German nouns](data/open-dict-ipa/data1a/de_N_only.csv.gz)
+3. [German non-nouns](data/open-dict-ipa/data1a/de_non_N_only.csv.gz)
 
-Scripts for analysis (Jupyter notebooks)
+The classfication between nouns from non-nouns is made (too) simply in that they are separated if words start with a capital letter or not without using any lexcial resource.
 
-1. [HDP word analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
+# Scripts for data analysis
 
+Scripts for analysis. One for word-level analysis. Another for sentence-level analysis.
+
+1. [HDP spell-sound analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
 2. [HDP text analyzer (Jupyter notebook)](HDP-text-analyzer.ipynb)
 
 Running was confirmed on Python 3.9, 3.10, and 3.11.
 
-Important Parameters:
+## Important Parameters:
 
 0. **source_sampling** [boolean]: a flag to perform sampling
 1. **term_class** [string]: either "spell" or "sound"
@@ -50,4 +56,4 @@ Needed Python packages
 
 1. pyLDAvis [recommended to install first of all]
 
-## Results
+# Results
