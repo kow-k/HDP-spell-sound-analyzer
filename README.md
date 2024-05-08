@@ -14,18 +14,21 @@ Data and scripts for analysis used for "Exploring structures of English sound an
 8. [English adjective spells (.csv) from wn3](data/wn3/en_A_only_wo_ipa.csv)
 9. [English adverb spells (.csv) from wn3](data/wn3/en_R_only_wo_ipa.csv)
 
-6, 7, 8 and 9 are class-wise extractions from [WordNet 3](http://wordnet.princeton.edu/).
+Data 6, 7, 8 and 9 are class-wise extractions from [WordNet 3](http://wordnet.princeton.edu/).
 
-2, 3, 4 and 5 are the reduced verions of 6, 7, 8 and 9 in which spells are paired with IPA symbols in open-dict-ipa en_US.csv.
+Data 2, 3, 4 and 5 are the reduced verions of 6, 7, 8 and 9 in which spells are paired with IPA symbols in open-dict-ipa en_US.csv.
 
 The "data1" directory is a copy of the directory of the same name provided at [open-dict-ipa](https://github.com/open-dict-data/ipa-dict).
 
 The "data1a" contains [German nouns](data/open-dict-ipa/data1a/de_N_only.csv.gz) and [German non-nouns](data/open-dict-ipa/data1a/de_non_N_only.csv.gz). This classfication is (too) simple in that they are separated if words start with capital letter or not.
 
 ## Scripts for data analysis
+
 Scripts for analysis (Jupyter notebooks)
 
-2. [HDP analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
+1. [HDP word analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
+
+2. [HDP text analyzer (Jupyter notebook)](HDP-text-analyzer.ipynb)
 
 Running was confirmed on Python 3.9, 3.10, and 3.11.
 
