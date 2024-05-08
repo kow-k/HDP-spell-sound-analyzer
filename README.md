@@ -41,12 +41,13 @@ Running was confirmed on Python 3.9, 3.10, and 3.11.
 
 ## Important Parameters:
 
-0. **source_sampling** [boolean]: a flag to perform sampling
+0. **target_lang_key** [string]: a selector for target language name
 1. **term_class** [string]: either "spell" or "sound"
-2. **max_doc_size** [integer]: maximum character length for docs to process
-3. **min_doc_size** [integer]: minimum character length for docs to process
-4. **ngram_is_inclusive** [boolean]: a flag for making ngrams inclusive
-5. **apply_term_filtering** [boolean]: 
+2. **source_sampling** [boolean]: a flag to perform sampling
+3. **max_doc_size** [integer]: maximum character length for docs to process
+4. **min_doc_size** [integer]: minimum character length for docs to process
+5. **ngram_is_inclusive** [boolean]: a flag for making ngrams inclusive
+6. **apply_term_filtering** [boolean]: 
 7. **term_minfreq** [integer]: a filter against too infrequent terms (valued for gensim's "minfreq")
 8. **term_abuse_threshold** [float: 0~1.0]: a filter against too frequent terms (valued for gensim's "abuse_theshold")
 
