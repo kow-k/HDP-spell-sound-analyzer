@@ -5,6 +5,7 @@ Data and scripts for analysis used for "Exploring structures of English sound an
 # Data
 
 ## English
+
 1. [English spell/sound pairs (.csv) from open-dict-ipa](data/open-dict-ipa/data1/en_US.csv.gz)
 2. [English noun spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_N_only.csv)
 3. [English verb spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_V_only.csv)
