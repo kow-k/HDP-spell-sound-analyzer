@@ -28,7 +28,7 @@ The "data1" directory is a copy of the directory of the same name provided at [o
 2. [German nouns](data/open-dict-ipa/data1a/de_N_only.csv.gz)
 3. [German non-nouns](data/open-dict-ipa/data1a/de_non_N_only.csv.gz)
 
-The classfication between nouns from non-nouns is made (too) simply in that they are separated if words start with a capital letter or not without using any lexcial resource.
+The classfication between nouns and non-nouns is made (too) simply in that nouns are those words that start with a capital letter and non-nouns are those that do not, without using any lexcial resources.
 
 # Scripts for data analysis
 
