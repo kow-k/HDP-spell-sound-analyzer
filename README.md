@@ -1,6 +1,6 @@
-# HDP sound-spell analysis
+# HDP spell-sound (association) analysis
 
-Data and scripts for analysis used for "Exploring structures of English sound and spelling using HDP" presented in JCSS41/2024
+Data and scripts for analysis used for "Unsupervised extraction of sound and spelling patterns for English words using HDP" to be presented in JCSS41/2024
 
 # Data
 
