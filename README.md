@@ -11,10 +11,10 @@ Data and scripts for analysis used for "Exploring structures of English sound an
 3. [English verb spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_V_only.csv)
 4. [English adjective spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_A_only.csv)
 5. [English adverb spell/sound pairs (.csv) from wn3 x open-dict-ipa](data/wn3/en_R_only.csv)
-6. [English noun spells (.csv) from wn3](data/wn3/en_N_only_wo_ipa.csv)
-7. [English verb spells (.csv) from wn3](data/wn3/en_V_only_wo_ipa.csv)
-8. [English adjective spells (.csv) from wn3](data/wn3/en_A_only_wo_ipa.csv)
-9. [English adverb spells (.csv) from wn3](data/wn3/en_R_only_wo_ipa.csv)
+6. [English noun spells (.csv) from wn3](data/wn3/en_N_only.csv)
+7. [English verb spells (.csv) from wn3](data/wn3/en_V_only.csv)
+8. [English adjective spells (.csv) from wn3](data/wn3/en_A_only.csv)
+9. [English adverb spells (.csv) from wn3](data/wn3/en_R_only.csv)
 
 Data 6, 7, 8 and 9 are class-wise extractions from [WordNet 3](http://wordnet.princeton.edu/).
 
@@ -36,6 +36,7 @@ Scripts for analysis. One for word-level analysis. Another for sentence-level an
 
 1. [HDP spell-sound analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
 2. [HDP text analyzer (Jupyter notebook)](HDP-text-analyzer.ipynb)
+3. [HDP spell-sound association analyzer (Jupyter notebook)](HDP-spell-sound-association-analyzer.ipynb)
 
 Running was confirmed on Python 3.9, 3.10, and 3.11.
 
