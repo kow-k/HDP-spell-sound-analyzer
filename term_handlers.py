@@ -63,7 +63,8 @@ def merge_with_overlap_under_gap(s1: str, s2: str, min_overlap, gap_marker: str,
 #
 def reduce_by_superposition(L: list, min_overlap, check: bool = False):
 	"""
-	given a list of strings, perform a pairwise merge by superposition and returns the result
+	given a list of strings, perform a pairwise merge by superposition
+	and returns the result
 	"""
 	reduced = [ ]
 	processed = [ ]
@@ -80,7 +81,8 @@ def reduce_by_superposition(L: list, min_overlap, check: bool = False):
 
 def reduce_by_superposition_under_gap(L: list, min_overlap, gap_marker: str = "…", check: bool = False):
 	"""
-	given a list of strings with gaps, perform a pairwise merge by superposition and returns the result
+	given a list of strings with gaps, perform a pairwise merge by
+	superposition and returns the result
 	"""
 	reduced = [ ]
 	processed = [ ]
