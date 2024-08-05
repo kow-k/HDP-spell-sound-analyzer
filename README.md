@@ -37,6 +37,7 @@ Scripts for analysis. One for word-level analysis. Another for sentence-level an
 1. [HDP spell-sound analyzer (Jupyter notebook)](HDP-spell-sound-analyzer.ipynb)
 2. [HDP text analyzer (Jupyter notebook)](HDP-text-analyzer.ipynb)
 3. [HDP spell-sound association analyzer (Jupyter notebook)](HDP-spell-sound-association-analyzer.ipynb)
+4. [integrate terms by topic (Jupyter notebook)](integrate-terms-by-topic.ipynb)
 
 Running was confirmed on Python 3.9, 3.10, and 3.11.
 
@@ -58,5 +59,6 @@ Other paramers used are not recommended to modify. Do so at your own risk.
 Needed Python packages
 
 1. pyLDAvis [recommended to install first of all]
+2. string2string [only for integrate-terms-by-topics]
 
 # Results
