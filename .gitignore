@@ -3,8 +3,7 @@
 .vscode/settings.json
 __pycache__/
 # files to ignore
+inspect-gensim.ipynb
 *.csv
 *.txt
 *.md.html
-inspect-gensim.ipynb
-inspect-gensim.ipynb
