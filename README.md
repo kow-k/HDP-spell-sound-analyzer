@@ -38,6 +38,7 @@ Scripts for analysis. One for word-level analysis. Another for sentence-level an
 2. [HDP text analyzer (Jupyter notebook)](HDP-text-analyzer.ipynb)
 3. [HDP spell-sound association analyzer (Jupyter notebook)](HDP-spell-sound-association-analyzer.ipynb)
 4. [integrate terms by topic (Jupyter notebook)](integrate-terms-by-topic.ipynb)
+5. [explore "parts-of-form"s](explore-parts-of-forms.ipynb)
 
 Running was confirmed on Python 3.9, 3.10, and 3.11.
 
