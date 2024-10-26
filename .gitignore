@@ -10,10 +10,11 @@
 !term_handler.py
 
 *.ipynb
+!explore-parts-of-form.ipynb
 !HDP-integrate-terms.ipynb
-!LDA-spell-sound-analyzer.ipynb
-!LDA-spell-sound-association-analyzer.ipynb
-!HDP-term-organizer.ipynb
+!HDP-spell-sound-analyzer.ipynb
+!HDP-spell-sound-association-analyzer.ipynb
+!HDP-text-analyzer.ipynb
 
 # folders to ignore
 .ipynb_checkpoints/
