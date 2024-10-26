@@ -3,8 +3,8 @@
 A collection of Cython functions to handle n-grams, continuous (= regular) and discontinous (= skippy)
 """
 import cython
-##
-def cy_gen_ngrams (S: cython.list, n: cython.int, check: cython.bint = False):
+
+def cy_gen_ngrams (S: list, n: int, check: bool = False):
 	"""
 	take a string and returns the list of character n-grams generated out of it.
 	"""
@@ -39,8 +39,10 @@ def cy_gen_ngrams (S: cython.list, n: cython.int, check: cython.bint = False):
 			pass
 	## return
 	return R
+
+
 ##
-def cy_gen_skippy_ngrams (S: cython.list, n: cython.int, max_distance = None, missing_mark: cython.str = "…", check: cython.bint = False):
+def cy_gen_skippy_ngrams (S: list, n: int, max_distance: int = None, missing_mark: str = "…", check: bool = False):
 	"""
 	takes a list of segments and returns a list of skippy n-grams out of them.
 	"""
@@ -98,7 +100,7 @@ def cy_gen_skippy_ngrams (S: cython.list, n: cython.int, max_distance = None, mi
 	## return result
 	return R
 ##
-def cy_make_ngram_inclusive (T: cython.list, S: cython.list, inclusion_degree: cython.int = 0, check: cython.bint = False):
+def cy_make_ngram_inclusive (T: list, S: list, inclusion_degree: int = 0, check: bool = False):
 	assert len(T) == len(S)
 	## variables
 	#i: cython.int
@@ -110,7 +112,7 @@ def cy_make_ngram_inclusive (T: cython.list, S: cython.list, inclusion_degree: c
 		print(f"#R initial: {R}")
 	##
 	if inclusion_degree > 0:
-		n = max(max(x) for x in T))
+		n = max(max(x) for x in T)
 		size = (n - inclusion_degree)
 		assert size >= 0
 		for i, x in enumerate(R):
