@@ -3,6 +3,7 @@
 .vscode/settings.json
 __pycache__/
 build/
+outdated/
 
 # files to ignore
 inspect-gensim.ipynb
