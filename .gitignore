@@ -9,6 +9,7 @@
 !cy_gen_ngrams.py
 !HDP_helper.py
 !term_handler.py
+!setup.py
 
 *.ipynb
 !explore-parts-of-form.ipynb
