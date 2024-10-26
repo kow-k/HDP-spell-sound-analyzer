@@ -23,4 +23,9 @@
 __pycache__/
 build/
 outdated/
-!results/
+!results/figures/
+!results/parts-of-form/
+!results/LDAvis/
+!results/terms-by-topics/
+!results/terms-by-topics-raw/
+
