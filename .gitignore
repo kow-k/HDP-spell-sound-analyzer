@@ -1,11 +1,12 @@
 # files to ignore
+*.c
 *.csv
 *.txt
 *.md.html
 *.html
 *.so
 *.py
-!cy_gen_ngramcs.py
+!cy_gen_ngrams.py
 !HDP_helper.py
 !term_handler.py
 
@@ -22,3 +23,4 @@
 __pycache__/
 build/
 outdated/
+!results/
