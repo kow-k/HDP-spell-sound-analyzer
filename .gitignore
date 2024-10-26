@@ -1,18 +1,23 @@
+# files to ignore
+*.csv
+*.txt
+*.md.html
+*.html
+*.so
+*.py
+!cy_gen_ngramcs.py
+!HDP_helper.py
+!term_handler.py
+
+*.ipynb
+!HDP-integrate-terms.ipynb
+!LDA-spell-sound-analyzer.ipynb
+!LDA-spell-sound-association-analyzer.ipynb
+!HDP-term-organizer.ipynb
+
 # folders to ignore
 .ipynb_checkpoints/
 .vscode/settings.json
 __pycache__/
 build/
 outdated/
-
-# files to ignore
-inspect-gensim.ipynb
-HDP-term-organizer.ipynb
-LDA-sound-explorer.ipynb
-*.csv
-*.txt
-*.md.html
-*.html
-
-# shared object files
-*.so
