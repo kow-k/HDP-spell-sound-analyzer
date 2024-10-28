@@ -61,7 +61,7 @@ def hc_clustering_terms_from_hdp (hdp_model, diction, term_type: str, n_topics: 
     if max_length is None and min_length is None:
         pass
     else:
-        if not max_length is None and not min_lenght is None:
+        if not max_length is None and not min_length is None:
             len_filter = [ len(x.replace(gap_mark, "")) >= min_length and len(x.replace(gap_mark, "")) <= max_length for x in term_enc_df.index ]
         elif max_length is None and not min_length is None:
             len_filter = [ len(x.replace(gap_mark, "")) >= min_length for x in term_enc_df.index ]
