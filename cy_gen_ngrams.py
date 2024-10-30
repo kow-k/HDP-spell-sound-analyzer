@@ -2,9 +2,11 @@
 """
 A collection of Cython functions to handle n-grams, continuous (= regular) and discontinous (= skippy)
 """
+
 import cython
 
-def cy_gen_ngrams (S: list, n: int, check: bool = False):
+##
+def gen_ngrams (S: list, n: int, check: bool = False):
 	"""
 	take a string and returns the list of character n-grams generated out of it.
 	"""
@@ -42,7 +44,7 @@ def cy_gen_ngrams (S: list, n: int, check: bool = False):
 
 
 ##
-def cy_gen_skippy_ngrams (S: list, n: int, max_distance: int = None, missing_mark: str = "…", check: bool = False):
+def gen_skippy_ngrams (S: list, n: int, max_distance: int = None, missing_mark: str = "…", check: bool = False):
 	"""
 	takes a list of segments and returns a list of skippy n-grams out of them.
 	"""
@@ -99,8 +101,9 @@ def cy_gen_skippy_ngrams (S: list, n: int, max_distance: int = None, missing_mar
 			R.append(q)
 	## return result
 	return R
+
 ##
-def cy_make_ngram_inclusive (T: list, S: list, inclusion_degree: int = 0, check: bool = False):
+def make_ngram_inclusive (T: list, S: list, inclusion_degree: int = 0, check: bool = False):
 	assert len(T) == len(S)
 	## variables
 	#i: cython.int
